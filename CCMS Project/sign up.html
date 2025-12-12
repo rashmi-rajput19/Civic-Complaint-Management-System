@@ -42,13 +42,93 @@
     </nav>
     <!--Navigation end-->
     <!--SIGN Up star-->
-    <div class="conatiner mt-3">
+    <div class="container-fluid  justify-content-center mt-3">
         <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label>UserName</label>
-                    <input type="text"class="form-control"/>
+             <div class="col-md-3 ">
+                <img src=""/>
+             </div>   
+             <!--second column start--> 
+              <div class="col-md-9">
+                    <div class="card">
+                        <div class="car-header bg-primary text-center pt-2">
+                        SIGN UP FORM
+                        </div>
+                        <div class="card-body">
+                            <!--first name start-->
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text"  class="form-control" required/>
+                            </div>
+                            <!--first name end-->
+                            <!--email start-->
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email"  class="form-control" required/>
+                            </div>
+                            <!--email end-->
+                            <!--conatct start-->
+                            <div class="form-group">
+                                <label>Contact No.</label>
+                                <input type="text"  class="form-control" maxlength="14" required/>
+                            </div>
+                            <!--contact end-->
+                            <!--gender start-->
+                            <div class="form-check">
+                                <label>Gender</label><br/>
+                                <input type="radio"  name= "gen" class="form-check-input" required/>
+                                <label class="form-check-label">Male</label>
+                            </div>
+                            <div class="form-check">
+                              <input type="radio"  name= "gen" class="form-check-input" required/>
+                                <label class="form-check-label">Female</label>
+                            
+                            </div>
+                           <!--<div class="form-check">-->
+                    
+                        <!--</div>-->  
+                            <!--gender end-->
+                            <!--Address start-->
+                            <div class="form-group">
+                                <label>Address</label>
+                                <textarea rows="4" class="form-control"></textarea>
+                            </div>
+                            <!--Address end-->
+                             <!--Adhar start-->
+                            <div class="form-group">
+                                <label>Adhaar Card No.</label>
+                                <input type="text"  class="form-control" maxlength="12" required/>
+                            </div>
+                            <!--Adhar end-->
+  
+                            <!--Adhar start-->
+                            <div class="form-group">
+                                <label>PIN Code</label>
+                                <input type="text"  class="form-control" minlength="6" maxlength="6" required/>
+                            </div>
+                            <!--Adhar end-->
+                            <label>Area</label>
+                            <select class="form-select">
+                                <option>Manjalpur</option>
+                                <option>Chhani Jakat Naka</option>
+                                <option> Chhani</option>
+                                <option>Sama</option>
+                                <option>Gotri </option>
+
+                            </select>
+                        </div>
+                        <div class="card-footer">
+                            
+                            <!--agree start-->
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input " required/><pre><b>"I agree to Privacy Policy & Terms"</b></pre> 
+                            </div>
+                            <button type="submit"  class="btn btn-success ms-3 mt-3 w-5px">Submit</button>
+                            <button type="reset" class="btn btn-danger mt-3 ms-1 w-5px">Cancel</button>
+                            <!--agree end-->
+                        </div> 
                 </div>
+                
+               
             </div>
         </div>
     </div>
